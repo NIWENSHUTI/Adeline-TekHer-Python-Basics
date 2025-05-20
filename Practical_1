@@ -1,0 +1,1314 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "426486dd",
+   "metadata": {
+    "id": "426486dd"
+   },
+   "source": [
+    "# Practical_1: Variables and Assignments"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9fb19f0d",
+   "metadata": {
+    "id": "9fb19f0d"
+   },
+   "source": [
+    "----\n",
+    "\n",
+    "### Exercise 1:\n",
+    "Declare a variable `x` and assign it the value `10`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 1\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 2:\n",
+    "Assign the value `True` to a variable called `is_valid`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 2\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 3:\n",
+    "Create a string variable `name` with the value \"Python Programming\".\n",
+    "\n",
+    "```python\n",
+    "# Exercise 3\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 4:\n",
+    "Assign the result of `5 + 3` to a variable `sum_result`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 4\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 5:\n",
+    "Assign multiple variables in one line: `a = 5`, `b = 10`, `c = 15`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 5\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 6:\n",
+    "Assign the value of one variable `x` to another variable `y`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 6\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 7:\n",
+    "Assign a floating-point number `9.8` to a variable `gravity`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 7\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 8:\n",
+    "Create a variable `country` and assign it the string value of your favorite country.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 8\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 9:\n",
+    "Change the value of variable `age` from `25` to `26` in two separate steps.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 9\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 10:\n",
+    "Use one variable to store the result of subtracting two numbers `20 - 7`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 10\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 11:\n",
+    "Assign an integer value and a floating-point value to two different variables.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 11\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 12:\n",
+    "Assign a boolean value `False` to a variable `is_completed`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 12\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 13:\n",
+    "Swap the values of two variables `x` and `y`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 13\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 14:\n",
+    "Assign a complex number `3 + 4j` to a variable `complex_num`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 14\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 15:\n",
+    "Reassign a variable from an integer to a string.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 15\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 16:\n",
+    "Create two variables `first_name` and `last_name`, and assign them your first and last names.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 16\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 17:\n",
+    "Create a variable `temperature` and assign it the value of `35.5`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 17\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 18:\n",
+    "Assign the result of the multiplication of two numbers `8 * 6` to a variable `product`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 18\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 19:\n",
+    "Assign a sentence of your choice to a variable `sentence`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 19\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 20:\n",
+    "Use an assignment to convert a string `'50'` into an integer variable `int_value`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 20\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 21:\n",
+    "Assign the result of dividing `144` by `12` to a variable `quotient`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 21\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 22:\n",
+    "Assign the remainder of `47 divided by 5` to a variable `remainder`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 22\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 23:\n",
+    "Create a variable `is_student` and assign it the value `True`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 23\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 24:\n",
+    "Use a variable to store the result of a modulo operation: `45 % 4`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 24\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 25:\n",
+    "Create a variable `pi` and assign it the value `3.14159`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 25\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 26:\n",
+    "Create two variables `length` and `width`, assign them values, and calculate the area of a rectangle.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 26\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 27:\n",
+    "Assign a negative number to a variable `negative_value`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 27\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 28:\n",
+    "Assign a string containing a special character (e.g., \"Hello, World!\") to a variable `greeting`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 28\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 29:\n",
+    "Create a variable `population` and assign it a large integer value (in billions).\n",
+    "\n",
+    "```python\n",
+    "# Exercise 29\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 30:\n",
+    "Use a variable to store the result of raising `2` to the power of `8`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 30\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 31:\n",
+    "Assign a list of your favorite fruits to a variable `fruits`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 31\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 32:\n",
+    "Assign a tuple of three numbers to a variable `coordinates`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 32\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 33:\n",
+    "Assign a dictionary with keys `name` and `age` to a variable `person`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 33\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 34:\n",
+    "Use variables to store the sum of two floating-point numbers.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 34\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 35:\n",
+    "Create a variable `is_sunny` and assign it the result of a comparison `10 > 5`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 35\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 36:\n",
+    "Assign a string and an integer to two different variables, then print both on one line.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 36\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 37:\n",
+    "Reassign a variable that originally held a number to a boolean value.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 37\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 38:\n",
+    "Create a variable `is_weekend` and assign it the result of `False`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 38\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 39:\n",
+    "Assign a multi-line string to a variable `description`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 39\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 40:\n",
+    "Use variables to store the result of the absolute value of `-25`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 40\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 41:\n",
+    "Assign the result of a floor division `100 // 6` to a variable `floor_div_result`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 41\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 42:\n",
+    "Assign the result of adding a floating-point number to an integer to a variable `mixed_sum`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 42\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 43:\n",
+    "Use variables to store a combination of string concatenation.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 43\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 44:\n",
+    "Assign an empty list to a variable `empty_list`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 44\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 45:\n",
+    "Assign a boolean value based on the comparison of two variables `a = 10` and `b = 15`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 45\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 46:\n",
+    "Assign a long sentence to a variable and count its characters using `len()`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 46\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 47:\n",
+    "Assign a fractional result `7 / 3` to a variable `division_result`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 47\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 48:\n",
+    "Create a variable `speed` and assign it the value of 100 kilometers per hour.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 48\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 49:\n",
+    "Assign a multi-variable equation like `y = 3x + 5` where `x = 4` to a variable `y`.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 49\n",
+    "```\n",
+    "\n",
+    "---\n",
+    "\n",
+    "### Exercise 50:\n",
+    "Use variables to calculate and store the average of three numbers.\n",
+    "\n",
+    "```python\n",
+    "# Exercise 50\n",
+    "```\n",
+    "\n",
+    "****"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f7497d89-978e-4429-802c-4bdae5f51c1a",
+   "metadata": {},
+   "source": [
+    "# Practical_1: Variables and Assignments "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "56bc5c55-50f4-454a-bc7f-d460e57b24c9",
+   "metadata": {},
+   "source": [
+    "#### Exercise 1:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bbcbf0da-7670-4d5c-9a54-12be7542609f",
+   "metadata": {},
+   "source": [
+    "x = 10"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "442e81bf-43cc-4ab0-b01c-ac2e59264508",
+   "metadata": {},
+   "source": [
+    "#### Exercise 2:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e6c633a7-5185-44dd-97c4-2aeac1937f21",
+   "metadata": {},
+   "source": [
+    "is_valid= True"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b7f5bfd2-9e40-4741-b5f8-42e18ff685cf",
+   "metadata": {},
+   "source": [
+    "#### Exercise 3: "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1c792f30-6b01-44de-9d5d-e37998c4967c",
+   "metadata": {},
+   "source": [
+    "name= \"Python Programming\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "22934819-cd62-4668-b208-f74acb3e42b9",
+   "metadata": {},
+   "source": [
+    "#### Exercise 4:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bfd14caa-288d-4326-ae31-03e7cfd95d2e",
+   "metadata": {},
+   "source": [
+    "Sum_result= 5+3"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "46478527-cee1-4d63-9e7c-858f3db92eb4",
+   "metadata": {},
+   "source": [
+    "#### Exercise 5:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3c1a65de-02de-467a-833d-f6a311a5046a",
+   "metadata": {},
+   "source": [
+    "a,b,c = 5,10,15"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "76c2aa07-2998-4223-b303-9e090af4c4f2",
+   "metadata": {},
+   "source": [
+    " #### Exercise 6:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c826b04a-2810-4a3a-b7a0-4bd29af01d9c",
+   "metadata": {},
+   "source": [
+    "x=20\n",
+    "---\n",
+    "y=x"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2432ae87-2b4c-428e-9b9c-1620d9776574",
+   "metadata": {},
+   "source": [
+    "#### Exercise 7:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "708e266a-c482-431b-9c8a-0b9d4f749797",
+   "metadata": {},
+   "source": [
+    "gravity= 9.8"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6f3404c4-8597-4143-8891-3486319436c2",
+   "metadata": {},
+   "source": [
+    "#### Exercise 8:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "628ca479-95c6-4f7a-abab-b4210c37afc9",
+   "metadata": {},
+   "source": [
+    "country = \"Rwanda\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "90a3c206-9dbd-42f8-b2b4-4a3f3d3622fe",
+   "metadata": {},
+   "source": [
+    "#### Exercise 9:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "53683049-3445-49b6-b19d-846a70658295",
+   "metadata": {},
+   "source": [
+    "age=25\n",
+    "---\n",
+    "age=26"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4a5b5f75-6b2f-41c0-aebb-7e6572bcbdfe",
+   "metadata": {},
+   "source": [
+    "#### Exercise 10:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f21921e1-b2d2-47cf-9b44-fa9fe8ca4f5f",
+   "metadata": {},
+   "source": [
+    "result=20-7"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "86b90427-beda-4a20-ac7c-77de9a2f56d8",
+   "metadata": {},
+   "source": [
+    "#### Exercise 11:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "70b196a3-116b-46ab-b9c8-edbfc9ef5a0d",
+   "metadata": {},
+   "source": [
+    "integer_value=10 \n",
+    "float_value=3.14"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "14889969-96b9-4267-9d82-2efcb501e2cf",
+   "metadata": {},
+   "source": [
+    "#### Exercise 12:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "786d9d4e-6893-4e2d-8914-c15aa4593a5f",
+   "metadata": {},
+   "source": [
+    "is_completed= False"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9935561d-319e-4e2d-b969-91cde7db9590",
+   "metadata": {},
+   "source": [
+    "#### Exercise 13:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9a2b29b3-1fc6-4185-b50a-5056d2dfd8f5",
+   "metadata": {},
+   "source": [
+    "X=5\n",
+    "y=10\n",
+    "# swapping\n",
+    "x,y = y,x"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a76c6e09-637b-495f-a3b6-e08370733689",
+   "metadata": {},
+   "source": [
+    "#### Exercise 14:"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "62ad003d-3a26-4d5c-8a7a-4d879bae85d7",
+   "metadata": {},
+   "source": [
+    "complex_num = 3+4j"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f79a695a-0a5b-4f7b-a78a-ffd99def266c",
+   "metadata": {},
+   "source": [
+    "#### Exercise 15:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "29e819ab-05bc-4205-823b-8daa91550121",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "84ce8c55-6dea-48d8-b50b-16a270e8cd69",
+   "metadata": {},
+   "source": [
+    "#### Exercise 16:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "31d69352-8b67-4799-86cd-292611d35f3f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7671aa53-92e5-4144-9cab-accc8c021767",
+   "metadata": {},
+   "source": [
+    "#### Exercise 17:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bcfb1b7b-e0ed-4ee3-a757-e8722691b736",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b3bcfe59-c9f6-4e31-86ef-f5bd37d87c76",
+   "metadata": {},
+   "source": [
+    "#### Exercise 18:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0e7b8109-ce0e-449f-97da-811ac827c83c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e584a679-8be3-4244-a85d-6f13b300e989",
+   "metadata": {},
+   "source": [
+    "#### Exercise 19:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f69de11b-9dbc-4fab-898a-8af8cc566d85",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "deddc469-bcd6-47eb-becf-b8f0cecc84fb",
+   "metadata": {},
+   "source": [
+    "#### Exercise 20:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7e170d7c-5330-4a06-87b2-2e60b5850b39",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "37ec4a9b-3595-472d-a265-1faf20c8f049",
+   "metadata": {},
+   "source": [
+    "#### Exercise 21:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "eca85094-8f93-4962-b8e5-d89f8c363f89",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c81db4da-5895-4831-bcef-4bddf466733d",
+   "metadata": {},
+   "source": [
+    "#### Exercise 22:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "def7ab8f-d645-4c4d-809a-d2c42f9632aa",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c6d3c597-2889-45f1-a48f-56a57cb0390e",
+   "metadata": {},
+   "source": [
+    "#### Exercise 23:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "26145ffe-2434-41e9-a370-78712affd8e2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ee2a9b51-4e34-4a69-a5ff-78083be72c85",
+   "metadata": {},
+   "source": [
+    "#### Exercise 24:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0f6d9f8f-8ef7-428f-b651-2e9f1959e306",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1933fab1-e7a0-45ce-a920-ba0c5365f9fa",
+   "metadata": {},
+   "source": [
+    "#### Exercise 25:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4edf17a9-12d0-4e55-92f3-0ba08f3d6619",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "942e1924-0130-4ca0-bc74-2dc6e519589b",
+   "metadata": {},
+   "source": [
+    "#### Exercise 26:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "354a7523-599e-4453-ba9f-d09597e5f88c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "34bfbe1f-8c15-43f0-bedc-bfc9b7be1100",
+   "metadata": {},
+   "source": [
+    "#### Exercise 27:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a0042455-1879-4b08-a0eb-a3e5988bd223",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "06ccf9b8-c243-457f-8606-3b26fb24ffaa",
+   "metadata": {},
+   "source": [
+    "#### Exercise 28:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "735f1ef4-1303-4669-a3da-bb5bd4d3e7a7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d5178b6c-0458-4765-988b-1c3d1b5347c4",
+   "metadata": {},
+   "source": [
+    "#### Exercise 29:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "499077d4-2d6c-4055-bc6f-4d74a213ba2d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "dfb0599b-dc2c-4930-9d13-0c1843773696",
+   "metadata": {},
+   "source": [
+    "#### Exercise 30:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "473ae0cb-0d0f-4be7-9d10-b963259ab826",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d43054b3-267a-4d22-9bea-fe14e9eb35cf",
+   "metadata": {},
+   "source": [
+    "#### Exercise 31:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "474114e7-8e49-4c72-8b2e-d0a9c4807002",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "46a261c5-3925-458a-8a8f-b2768ffc391c",
+   "metadata": {},
+   "source": [
+    "#### Exercise 32:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9e185470-d5cb-4f55-b56e-0bdd31f8b8de",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ad23f33b-51b2-4f28-8e0b-e37b9db1f5e6",
+   "metadata": {},
+   "source": [
+    "#### Exercise 33:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "da128d97-9f6e-40fd-84d7-f1d0aa317d01",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "320426ef-ca83-45b4-bcb1-79b4e8c84c9b",
+   "metadata": {},
+   "source": [
+    "#### Exercise 34:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "99e91f3e-a108-4c7b-9555-f0916b366e52",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "30dae43b-951d-4e3c-9688-f2bd815d65be",
+   "metadata": {},
+   "source": [
+    "#### Exercise 35:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "809f5141-8912-47b6-9f80-95886ae5854f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ce19c86f-70a0-4a1a-91c6-6841603f87a8",
+   "metadata": {},
+   "source": [
+    "#### Exercise 36:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "686f6ac5-ef8a-4930-b2a9-fa92acea1fd8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "96e8f6b4-184e-4794-bbe9-f40a94549c8f",
+   "metadata": {},
+   "source": [
+    "#### Exercise 37:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f828d29c-a9b5-4df2-9002-9a1707caf409",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "93444c69-c9eb-4d28-9e0e-945df96a4f3d",
+   "metadata": {},
+   "source": [
+    "#### Exercise 38:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "6ff4da93-55e9-4a04-b93e-a2a0ff798293",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3b535697-43f4-41f5-9c09-697daa74f261",
+   "metadata": {},
+   "source": [
+    "#### Exercise 39:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "8a909d00-81c4-4083-b66d-59b0e4991207",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7114ccb9-0684-4ec5-8f99-4fd7cf6b17d9",
+   "metadata": {},
+   "source": [
+    "#### Exercise 40:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e5c5e820-50d1-45dd-a7aa-7d552202fb6d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7a94489a-fd7a-48a4-982b-cdb4b4313596",
+   "metadata": {},
+   "source": [
+    "#### Exercise 41:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "50acdfa8-bb94-4382-9780-36ed246c8a84",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bd4e1c91-83d9-4a0a-8a48-5a79f885ed2c",
+   "metadata": {},
+   "source": [
+    "#### Exercise 42:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c76c17a3-2305-4c73-b29d-631f9e695079",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ec3e8340-e831-4af8-a8f6-425224bdea79",
+   "metadata": {},
+   "source": [
+    "#### Exercise 43:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3d8e3eb6-875d-4f0b-90dd-1ec229f0b4ff",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "54802d23-fc5d-4c98-b9f6-ee391f06374b",
+   "metadata": {},
+   "source": [
+    "#### Exercise 44:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "18c14fad-d917-4bf2-b5bc-d3ac618231aa",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8147ccac-83e7-4722-b496-407e7ee7fd5d",
+   "metadata": {},
+   "source": [
+    "#### Exercise 45:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7c0f0ef1-95b5-4d17-a2a3-ab8d1881c678",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "81b2c7f9-f78c-4192-80f1-5d8bda1b5c05",
+   "metadata": {},
+   "source": [
+    "#### Exercise 46:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2dbbf54a-dc02-4354-848e-fac61fbf5b76",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "634407fc-4196-4be8-b734-a8bbe4d32261",
+   "metadata": {},
+   "source": [
+    "#### Exercise 47:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "44ac3e9d-1994-4afc-8b50-9c97e3eaee4b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4c12e1eb-3f46-483c-90fb-1c3e905cf5f6",
+   "metadata": {},
+   "source": [
+    "#### Exercise 48:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "cf877fd7-5a90-43a6-a547-1cb57f859b4c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "172f80a2-ef3a-41b3-ab5f-4e218caadc32",
+   "metadata": {},
+   "source": [
+    "#### Exercise 49:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d268e692-55be-4256-bcd1-2bfa52253736",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "cbb3f91b-faee-4647-a7ec-feb310fc7e83",
+   "metadata": {},
+   "source": [
+    "#### Exercise 50:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d24663a3-c664-4c69-a9f4-125951976a04",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "colab": {
+   "provenance": []
+  },
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
